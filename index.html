@@ -29,6 +29,20 @@
         <label for="color-light">Light Color:</label>
         <input type="color" id="color-light" value="#ffffff">
 
+        <h4>Wi-Fi Network Configuration (Optional)</h4>
+        <label for="wifi-ssid">SSID:</label>
+        <input type="text" id="wifi-ssid" placeholder="Enter Wi-Fi SSID">
+
+        <label for="wifi-password">Password:</label>
+        <input type="text" id="wifi-password" placeholder="Enter Wi-Fi Password">
+
+        <label for="wifi-encryption">Encryption:</label>
+        <select id="wifi-encryption">
+            <option value="WPA">WPA</option>
+            <option value="WEP">WEP</option>
+            <option value="nopass">No Password</option>
+        </select>
+
         <button id="generate-button">Generate QR Code</button>
         <div id="qr-code"></div>
     </main>
